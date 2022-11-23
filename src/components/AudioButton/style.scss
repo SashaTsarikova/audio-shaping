@@ -1,0 +1,25 @@
+.AudioButton-button {
+  background-color: rgb(19, 94, 48);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: min(20vw, 200px);
+  height: 40px;
+  border-radius: 5px;
+
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: rgb(201, 201, 201);
+  border-color: transparent;
+
+  &:disabled {
+    background-color: rgb(56, 61, 58);
+  }
+}
+.AudioButton-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
